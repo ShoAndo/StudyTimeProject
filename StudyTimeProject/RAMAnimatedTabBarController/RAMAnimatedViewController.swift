@@ -1,14 +1,15 @@
 //
-//  TimeViewController.swift
+//  RAMAnimatedViewController.swift
 //  StudyTimeProject
 //
-//  Created by 安藤奨 on 2019/08/07.
+//  Created by 安藤奨 on 2019/08/08.
 //  Copyright © 2019 安藤奨. All rights reserved.
 //
 
 import UIKit
 
-class TimeViewController: UIViewController {
+
+class RAMAnimatedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

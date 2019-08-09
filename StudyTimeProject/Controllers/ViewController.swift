@@ -7,14 +7,27 @@
 //
 
 import UIKit
+import RAMAnimatedTabBarController
+import RealmSwift
+
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        _ = try! Realm()
+        
+        print(Realm.Configuration.defaultConfiguration.fileURL!)//追加
         // Do any additional setup after loading the view.
+        
+        
     }
 
-
+    @IBAction func didClickedButton(_ sender: Any) {
+        performSegue(withIdentifier: "toStart", sender: nil)
+    }
+    
 }
 

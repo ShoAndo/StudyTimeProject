@@ -1,0 +1,34 @@
+PODS:
+  - LTMorphingLabel (0.7.0)
+  - RAMAnimatedTabBarController (5.0.1)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - LTMorphingLabel
+  - RAMAnimatedTabBarController
+  - RealmSwift
+  - SCLAlertView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LTMorphingLabel
+    - RAMAnimatedTabBarController
+    - Realm
+    - RealmSwift
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  LTMorphingLabel: 22147fb1ec2b0306537ccc348b36ea8617179b03
+  RAMAnimatedTabBarController: ec36fba2fa4679fd36db55098e3477fe9bd79f52
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: 133baee9dcdf969c7b4fa9180d30ca28069d9452
+
+COCOAPODS: 1.7.5

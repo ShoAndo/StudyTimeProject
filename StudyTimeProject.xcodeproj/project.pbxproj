@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0C48A122FB646B00A05F61 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C48A022FB646B00A05F61 /* SettingViewController.swift */; };
+		9F0C48CB22FBDE2000A05F61 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C48CA22FBDE2000A05F61 /* RAMAnimatedTabBarController.swift */; };
+		9F4BF18922FCAAD500157B44 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BF18822FCAAD500157B44 /* Realm.swift */; };
 		9F5E7C9822F9E97A00F7FEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E7C9722F9E97A00F7FEE9 /* AppDelegate.swift */; };
 		9F5E7C9A22F9E97A00F7FEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E7C9922F9E97A00F7FEE9 /* ViewController.swift */; };
 		9F5E7C9D22F9E97A00F7FEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E7C9B22F9E97A00F7FEE9 /* Main.storyboard */; };
@@ -14,9 +17,15 @@
 		9F5E7CA222F9E97D00F7FEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E7CA022F9E97D00F7FEE9 /* LaunchScreen.storyboard */; };
 		9F5E7CAA22FA0B6800F7FEE9 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E7CA922FA0B6800F7FEE9 /* ReportViewController.swift */; };
 		9F5E7CAC22FA0BBE00F7FEE9 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E7CAB22FA0BBE00F7FEE9 /* TimeViewController.swift */; };
+		ADE2C6737BC87AD4C92265AF /* Pods_StudyTimeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D523B950AE28BDFDEFBA902 /* Pods_StudyTimeProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02350E38789EBC8D17763009 /* Pods-StudyTimeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyTimeProject.release.xcconfig"; path = "Target Support Files/Pods-StudyTimeProject/Pods-StudyTimeProject.release.xcconfig"; sourceTree = "<group>"; };
+		6D523B950AE28BDFDEFBA902 /* Pods_StudyTimeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyTimeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0C48A022FB646B00A05F61 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9F0C48CA22FBDE2000A05F61 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		9F4BF18822FCAAD500157B44 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		9F5E7C9422F9E97A00F7FEE9 /* StudyTimeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyTimeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5E7C9722F9E97A00F7FEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F5E7C9922F9E97A00F7FEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +35,7 @@
 		9F5E7CA322F9E97D00F7FEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5E7CA922FA0B6800F7FEE9 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		9F5E7CAB22FA0BBE00F7FEE9 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		FFCCF316F0E121829B62C3FC /* Pods-StudyTimeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyTimeProject.debug.xcconfig"; path = "Target Support Files/Pods-StudyTimeProject/Pods-StudyTimeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE2C6737BC87AD4C92265AF /* Pods_StudyTimeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2D5777195DE828D62F5C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D523B950AE28BDFDEFBA902 /* Pods_StudyTimeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F0C48A222FB647100A05F61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5E7C9922F9E97A00F7FEE9 /* ViewController.swift */,
+				9F5E7CAB22FA0BBE00F7FEE9 /* TimeViewController.swift */,
+				9F0C48A022FB646B00A05F61 /* SettingViewController.swift */,
+				9F5E7CA922FA0B6800F7FEE9 /* ReportViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F0C48C722FBDDBB00A05F61 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C48CA22FBDE2000A05F61 /* RAMAnimatedTabBarController.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		9F4BF18722FCAAC400157B44 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BF18822FCAAD500157B44 /* Realm.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
 		9F5E7C8B22F9E97A00F7FEE9 = {
 			isa = PBXGroup;
 			children = (
 				9F5E7C9622F9E97A00F7FEE9 /* StudyTimeProject */,
 				9F5E7C9522F9E97A00F7FEE9 /* Products */,
+				FC31904CB4F441F529420171 /* Pods */,
+				3A2D5777195DE828D62F5C60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +106,25 @@
 		9F5E7C9622F9E97A00F7FEE9 /* StudyTimeProject */ = {
 			isa = PBXGroup;
 			children = (
+				9F4BF18722FCAAC400157B44 /* Realm */,
+				9F0C48C722FBDDBB00A05F61 /* RAMAnimatedTabBarController */,
+				9F0C48A222FB647100A05F61 /* Controllers */,
 				9F5E7C9722F9E97A00F7FEE9 /* AppDelegate.swift */,
-				9F5E7C9922F9E97A00F7FEE9 /* ViewController.swift */,
 				9F5E7C9B22F9E97A00F7FEE9 /* Main.storyboard */,
-				9F5E7CAB22FA0BBE00F7FEE9 /* TimeViewController.swift */,
-				9F5E7CA922FA0B6800F7FEE9 /* ReportViewController.swift */,
 				9F5E7C9E22F9E97D00F7FEE9 /* Assets.xcassets */,
 				9F5E7CA022F9E97D00F7FEE9 /* LaunchScreen.storyboard */,
 				9F5E7CA322F9E97D00F7FEE9 /* Info.plist */,
 			);
 			path = StudyTimeProject;
+			sourceTree = "<group>";
+		};
+		FC31904CB4F441F529420171 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCF316F0E121829B62C3FC /* Pods-StudyTimeProject.debug.xcconfig */,
+				02350E38789EBC8D17763009 /* Pods-StudyTimeProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F5E7CA622F9E97D00F7FEE9 /* Build configuration list for PBXNativeTarget "StudyTimeProject" */;
 			buildPhases = (
+				A11AEC65E5BD957B4CAB7233 /* [CP] Check Pods Manifest.lock */,
 				9F5E7C9022F9E97A00F7FEE9 /* Sources */,
 				9F5E7C9122F9E97A00F7FEE9 /* Frameworks */,
 				9F5E7C9222F9E97A00F7FEE9 /* Resources */,
+				A3F379A3D86D2D2E5483357A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,12 +195,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A11AEC65E5BD957B4CAB7233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyTimeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F379A3D86D2D2E5483357A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyTimeProject/Pods-StudyTimeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyTimeProject/Pods-StudyTimeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyTimeProject/Pods-StudyTimeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F5E7C9022F9E97A00F7FEE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0C48A122FB646B00A05F61 /* SettingViewController.swift in Sources */,
+				9F0C48CB22FBDE2000A05F61 /* RAMAnimatedTabBarController.swift in Sources */,
 				9F5E7C9A22F9E97A00F7FEE9 /* ViewController.swift in Sources */,
+				9F4BF18922FCAAD500157B44 /* Realm.swift in Sources */,
 				9F5E7CAC22FA0BBE00F7FEE9 /* TimeViewController.swift in Sources */,
 				9F5E7C9822F9E97A00F7FEE9 /* AppDelegate.swift in Sources */,
 				9F5E7CAA22FA0B6800F7FEE9 /* ReportViewController.swift in Sources */,
@@ -288,6 +392,7 @@
 		};
 		9F5E7CA722F9E97D00F7FEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCCF316F0E121829B62C3FC /* Pods-StudyTimeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +411,7 @@
 		};
 		9F5E7CA822F9E97D00F7FEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02350E38789EBC8D17763009 /* Pods-StudyTimeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
